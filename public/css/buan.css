@@ -1,0 +1,80 @@
+.img_produk {
+    width: 10px;
+}
+
+.img-fluid {
+
+    max-width: 100%;
+    height: 80px;
+}
+
+.btn {
+    color: white;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card-img-wrapper {
+    overflow: hidden;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+}
+
+.card-img-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img_produk {
+    width: 100px;
+}
+
+.table>tbody>tr>* {
+    vertical-align: middle;
+}
+
+.card-poduct {
+    border: none !important;
+    box-shadow: 0 10px 7px 0 rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 350px;
+    /* Sesuaikan dengan tinggi yang diinginkan */
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.form-control:focus {
+    border-color: #73f140a4;
+    /* Ganti dengan warna yang diinginkan */
+    box-shadow: 0 0 0 0.2rem rgba(55, 255, 0, 0.3);
+}
+
+/* buat style modal */
+.modal {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img_modal {
+    max-width: 100%;
+    height: auto;   
+} 
+
+.aa{
+    background-color: #21D192;
+}
